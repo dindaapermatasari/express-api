@@ -8,10 +8,10 @@ This project is created for studying API and Node.js.
 1. Buka terminal atau command prompt di komputer Anda
 2. Ketikan Perintah Berikut:
    
-   ``` git clone https://github.com/dndaaprmts/latihan-git.git ```
+   ``` git clone https://github.com/dndaaprmts/express-api.git ```
 3. Masuk Ke Dalam Folder Hasil Clone
    
-   ``` cd latihan-git ```
+   ``` cd express-api ```
 
 # How to Use and Configuration Node JS Express
 1. Install Node.js dan Node Package Manager (NPM) dari:
@@ -34,7 +34,7 @@ Run server using ```npm``` command below
   ``` $ npm run start ```
 
 # API Documentation
-You can access this project API documentation [here](https://example.com)
+You can access this project API documentation [here](https://documenter.getpostman.com/view/29495277/2sA3BuV8V6)
 
 
 
