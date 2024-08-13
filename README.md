@@ -5,30 +5,30 @@ This project is created for studying API and Node.js.
 ![image](https://github.com/dndaaprmts/latihan-git-/assets/140226220/edca9ccf-09ef-47d1-8678-ec0a432a720c)
 
 # How to Cloning Repository
-1. Buka terminal atau command prompt di komputer Anda
-2. Ketikan Perintah Berikut:
+1. Open a terminal or command prompt on your computer.
+2. Enter the following command:
    
    ```bash
    git clone https://github.com/dndaaprmts/express-api.git
-3. Masuk Ke Dalam Folder Hasil Clone
+3. Navigate into the cloned repository folder:
 
    ```bash
    cd express-api 
 
-# How to Use and Configuration Node JS Express
-1. Install Node.js dan Node Package Manager (NPM) dari:
+# How to Use and Configuration Node.js Express
+1. Install Node.js and Node Package Manager (NPM) from:
    
-   [Download disini](https://nodejs.org/en/download/)
-2. Instal semua dependensi JavaScript dengan menjalankan perintah:
+   [Download here](https://nodejs.org/en/download/)
+2. Install all JavaScript dependencies by running the command:
 
    ```bash
    npm install 
-3. Salin isi berkas .env.example menjadi .env:
+3. Copy the contents of the .env.example file to a new file named .env:
 
    ```bash
    cp .env.example .env 
-4. Buatlah database kosong di phpMyAdmin dengan nama articles.
-5. Lakukan migrasi database dengan menjalankan perintah:
+4. Create an empty database in phpMyAdmin named articles.
+5. Run the database migration with the command:
 
    ```bash
    knex migrate:latest 
@@ -36,8 +36,9 @@ This project is created for studying API and Node.js.
 # How to Run
 Run the server using the following `npm` command:
 
-      ```bash
-      npm run start
+```bash
+npm run start
+```
 
 # API Documentation
 You can access this project API documentation [here](https://documenter.getpostman.com/view/29495277/2sA3BuV8V6).
