@@ -8,33 +8,43 @@ This project is created for studying API and Node.js.
 1. Buka terminal atau command prompt di komputer Anda
 2. Ketikan Perintah Berikut:
    
-   ``` git clone https://github.com/dndaaprmts/express-api.git ```
+   ```bash
+   git clone https://github.com/dndaaprmts/express-api.git
 3. Masuk Ke Dalam Folder Hasil Clone
-   
-   ``` cd express-api ```
+
+   ```bash
+   cd express-api 
 
 # How to Use and Configuration Node JS Express
 1. Install Node.js dan Node Package Manager (NPM) dari:
    
    [Download disini](https://nodejs.org/en/download/)
 2. Instal semua dependensi JavaScript dengan menjalankan perintah:
-   
-   ``` $ npm install ```
+
+   ```bash
+   npm install 
 3. Salin isi berkas .env.example menjadi .env:
-   
-   ``` cp .env.example .env ```
+
+   ```bash
+   cp .env.example .env 
 4. Buatlah database kosong di phpMyAdmin dengan nama articles.
 5. Lakukan migrasi database dengan menjalankan perintah:
-   
-   ``` $ knex migrate:latest ``` 
+
+   ```bash
+   knex migrate:latest 
 
 # How to Run
-Run server using ```npm``` command below
+Run the server using the following `npm` command:
 
-  ``` $ npm run start ```
+      ```bash
+      npm run start
 
 # API Documentation
-You can access this project API documentation [here](https://documenter.getpostman.com/view/29495277/2sA3BuV8V6)
+You can access this project API documentation [here](https://documenter.getpostman.com/view/29495277/2sA3BuV8V6).
+
+
+
+
 
 
 
